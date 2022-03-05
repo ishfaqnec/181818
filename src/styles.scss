@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #282626;
+  background: url(./assets/banner.jpg) no-repeat center / cover;
+}
+
+.form-wrapper {
+    background-color: #51515433;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+
+  .form-group {
+    padding-bottom: 15px;
+
+    .form-input {
+        border: 1px solid #686868;
+        padding: 12px;
+        border-radius: 4px;
+        width: 100%;
+        height: 46px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+
+    label {
+      display: block;
+      color: #fff;
+      padding-bottom: 6px;
+    }
+  }
+}
+
+.btn {
+    padding: 12px 30px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #95a324;
+    margin-top: 25px;
+    letter-spacing: 0.02rem;
+}
+.btn-theme {
+    background-color: #95a324;
+    color: #fff;
+}
